@@ -1,6 +1,14 @@
 body {
     height: 100%;
     width: 100%;
+    margin: 0px;
+    background-color: #e0e0e0;
+}
+header {
+    background-color: rosybrown;
+}
+footer {
+    background-color: rosybrown;
 }
 .container {
     height: 100%;
@@ -10,9 +18,16 @@ body {
     height: 60px;
     width: 60px;
 }
-.hotel-img img{
+.hotel-img{
     height: 500px;
     width: 500px;
+    margin: 2% 4% 0 4%;
+}
+form {
+    margin: 0 4% 1% 4%;
+}
+.hotel-description {
+    margin: 1% 4% 2% 4%;
 }
 .social-media-img {
     height: 20px;

@@ -1,10 +1,23 @@
 body {
     height: 100%;
     width: 100%;
+    margin: 0px;
+    background-color: #e0e0e0;
+}
+header {
+    background-color: rosybrown;
+}
+footer {
+    background-color: rosybrown;
 }
 .container {
     height: 100%;
     width: 100%;
+}
+.hotel-card {
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
 }
 .logo-img {
     height: 60px;
