@@ -1,25 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap');
 body {
     width: 100%;
     height: 100%;
     margin: 0px;
     background-color: #e0e0e0;
-}
-header {
-    background-color: rosybrown;
-}
-footer {
-    background-color: rosybrown;
+    font-family: "Ubuntu", sans-serif;
 }
 .container {
     height: 100%;
     width: 100%;
 }
-.search-bar {
+header {
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+header > * {
+    margin: 0 10px;
+}
+footer {
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+footer > * {
+    margin: 0 10px;
+}
+.content {
+    margin: 60px 0;
+}
+.copyright-text {
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.search-bar-container {
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar {
+    border: 1px transparent;
+    background: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 25%;
 }
 .images-card {
     margin: 0px 15%;
@@ -30,10 +75,19 @@ footer {
     padding: 4%;
     border-radius: 25%;
 }
+.view-more-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
 .logo-img {
     height: 60px;
     width: 60px;
+
 }
+
 .social-media-img {
     height: 20px;
     width: 22px;
