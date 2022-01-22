@@ -21,6 +21,24 @@ header {
 header > * {
     margin: 0 10px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1px 1fr;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    border: 1px solid black;
+    margin: 6% 2% 2% 2%;
+}
+.heading {
+    font-family: cursive;
+    font-weight: bold;
+}
+.vl {
+    width: 1px;
+    height: 400px;
+    background: black;
+}
 footer {
     background-color: rosybrown;
     display: flex;
@@ -53,13 +71,45 @@ a {
     height: 60px;
     width: 60px;
 }
-.hotel-img{
-    height: 500px;
-    width: 500px;
-    margin: 2% 4% 0 4%;
+.hotel-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.hotel-img{
+    height: 350px;
+    width: 500px;
+    margin: 2% 4% 2% 4%;
+}
+
 form {
-    margin: 0 4% 1% 4%;
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form > * {
+    height: 100%;
+    width: 100%;
+}
+form input {
+    width: 60%;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit input {
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
 }
 .hotel-description {
     margin: 1% 4% 2% 4%;

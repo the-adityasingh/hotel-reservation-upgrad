@@ -67,8 +67,14 @@ a {
 }
 .hotel-card {
     margin: 2%;
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
     width: 40%;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+}
+.card-description {
+    margin-left: 10%;
 }
 .logo-img {
     height: 60px;
