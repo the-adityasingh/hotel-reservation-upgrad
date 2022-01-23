@@ -73,6 +73,9 @@ a {
     display: flex;
     justify-content: start;
 }
+.hotel-card:hover {
+    background: rosybrown;
+}
 .card-description {
     margin-left: 10%;
 }
@@ -90,4 +93,16 @@ a {
 }
 .map-image {
     display: none;
+}
+.login-btn {
+    border: 1px solid transparent;
+    background: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.contact-us {
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    background: teal;
+    border-radius: 5px;
 }

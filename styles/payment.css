@@ -89,3 +89,19 @@ a {
     height: 300px;
     width: 370px;
 }
+.login-btn {
+    background: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+.contact-us {
+    background: teal;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.pay-now-btn {
+    background: rgb(56, 179, 31);
+    color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+}

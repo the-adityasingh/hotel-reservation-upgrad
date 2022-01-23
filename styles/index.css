@@ -21,6 +21,12 @@ header {
     width: 100%;
     height: 60px;
 }
+header a {
+    border: 1px solid transparent;
+    background: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
 header > * {
     margin: 0 10px;
 }
@@ -47,6 +53,12 @@ footer > * {
 a {
     text-decoration: none;
     color: black;
+}
+.contact-us {
+    border: 1px solid transparent;
+    background: teal;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .search-bar-container {
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
@@ -88,7 +100,12 @@ a {
     box-shadow: 10px 10px 10px gray;
     position: relative;
 }
-
+.view-more {
+    border: 1px solid transparent;
+    background: gray;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
 .view-more-container {
     width: 100%;
     display: flex;
